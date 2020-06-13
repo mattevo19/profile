@@ -1,0 +1,100 @@
+/* background-color, font-family, color, font-size and line-height for the <body> */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+  background-color: #ffffff;
+  font-family:'Open Sans', sans-serif;
+  color: black;
+  font-size: 19px;
+  line-height:  normal;
+  text-align: center;
+}
+
+h1  {
+  color: #FB5012;
+  margin: auto;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+
+h2 {
+  color: #FB5012;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  background-color: #E9DF00;
+  border-radius: 8px;
+  
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 100px;
+}
+a {
+  color: #7c258d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7c258dbd;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.center {
+  width: auto;
+  margin: auto;
+}
+
+.card  {
+  background-color:#37C6D4;
+  padding: 0px;
+  margin: 32px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 0px rgb(192, 192, 192);
+  border-radius: 8px;
+}
+
+.button {
+  background-color: #E9DF00;
+  padding: 16px;
+  margin: 8;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #fcef00c2;
+}
+
+p {
+  color: #433E3F;
+}
+
+@media (max-width: 1024px) {
+  .container{
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container{
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container{
+    width: 300px;
+  }
+}
