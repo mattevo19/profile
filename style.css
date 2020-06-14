@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 body {
-  background-color: #ffffff;
+  background-color: #000000;
   font-family:'Open Sans', sans-serif;
   color: black;
   font-size: 19px;
@@ -28,16 +28,15 @@ h2 {
 
 ul {
   list-style: none;
-  padding: 0px;
   background-color: #E9DF00;
   border-radius: 8px;
-  
 }
 
 li {
   display: inline-block;
-  padding: 20px;
-  font-size: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 70px;
 }
 a {
   color: #7c258d;
@@ -63,14 +62,12 @@ a:hover {
   padding: 0px;
   margin: 32px;
   border: 2px solid rgb(0, 0, 0);
-  box-shadow: 2px 2px 0px rgb(192, 192, 192);
   border-radius: 8px;
 }
 
 .button {
   background-color: #E9DF00;
-  padding: 16px;
-  margin: 8;
+  padding: 8px;
   font-weight: bold;
   border-radius: 8px;
 }
